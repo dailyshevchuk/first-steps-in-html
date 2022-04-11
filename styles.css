@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+html,body {
+	height: 100%;
+}
+
+body {
+	color: black;
+	font-family: 'Comfortaa';
+	margin: 0;
+	padding: 0;
+	background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	
+}
+
+.container {
+	max-width: 700px;
+	margin: auto;
+}
+
+
+/* background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3); */
+
+header:hover {
+	
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ header {
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	border-radius: 25px;
+	margin-bottom: 10px;
+	padding: 15px;
+	color: whitesmoke;
+ }
+ 
+ img {
+	margin-top: 15px;
+	border-radius: 25px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+ }
+ 
+ .experience:hover {
+	
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ .experience {
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 25px;
+	padding: 15px 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.interest:hover {
+	
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ .interest {
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 25px;
+	 padding: 15px 20px;
+	 color: white;
+ }
+
+
+ footer {
+	border-radius: 25px;
+	padding: 10px;
+	color:aliceblue
+}
+
+h3 {
+	margin-bottom: 5px;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+a :hover {
+	transition: all .2s;
+	image-resolution: 50px;
+}
+
